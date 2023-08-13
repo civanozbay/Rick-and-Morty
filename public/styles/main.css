@@ -1,3 +1,6 @@
+body{
+    background-color: #333;
+}
 .center {
     /* transform: scale(1.5);
     height: 100vh;
@@ -5,8 +8,12 @@
     align-items:flex-start;
     justify-content: center; */
     display:flex;
+    flex-wrap: wrap;
     gap: 30px;
     margin-top: 20px;
+    padding: 20px;
+    justify-content: center;
+    
 }
   
   .article-card {
@@ -50,11 +57,12 @@
   .article-card .date {
     font-size: 12px;
     color: rgba(255, 255, 255, 0.9);
+    font-weight: bold;    
     margin-bottom: 4px;
   }
   
   .article-card .title {
-    font-size: 17px;
+    font-size: 14px;
     color: #fff;
   }
   h1{
@@ -65,7 +73,7 @@
   
 /* Add a black background color to the top navigation */
 .topnav {
-    background-color: #333;
+    background-color: rgb(206, 192, 47);
     overflow: hidden;
   }
   
@@ -81,18 +89,23 @@
   
   /* Change the color of links on hover */
   .topnav a:hover {
-    background-color: #ddd;
+    background-color: rgb(218, 189, 104);
     color: black;
   }
   
   /* Add a color to the active/current link */
   .topnav a.active {
-    background-color: #333;
+    background-color: rgb(223, 234, 220);
     color: white;
   }
 
+
+
+
+
+
   /*-------------------- SEARCH BAR --------------------*/
-  body{
+  /* body{
 
     background: #232424;
 }
@@ -146,4 +159,5 @@
 
     box-shadow: none;
     border:none;
-}
+} 
+*/ 

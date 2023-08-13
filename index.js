@@ -4,8 +4,11 @@ import axios from "axios";
 const app = express();
 app.use(express.static("public"));
 
-app.get("/", (req, res) => {
-  res.render("index.ejs", { data: "data" });
+app.get("/", async (req, res) => {
+  const data = await axios.get("https://rickandmortyapi.com/api/character");
+  const result = data.data.results;
+  console.log(result[0].status);
+  res.render("index.ejs", { data: result });
 });
 
 app.listen(3000, () => {
