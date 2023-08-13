@@ -22,4 +22,4 @@ This is a simple web application that displays characters from the popular anima
   
 ## API Used
 
-The application fetches character data from the [Rick and Morty API.](https://rickandmortyapi.com/documentation/#get-a-single-character)https://rickandmortyapi.com/documentation/#get-a-single-character You can explore their API documentation for more information.
+The application fetches character data from the [Rick and Morty API.](https://rickandmortyapi.com/documentation/#get-a-single-character) You can explore their API documentation for more information.
