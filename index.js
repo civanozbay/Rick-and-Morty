@@ -5,7 +5,7 @@ const app = express();
 app.use(express.static("public"));
 
 app.get("/", (req, res) => {
-  res.render("index.ejs", { data: "sa" });
+  res.render("index.ejs", { data: "data" });
 });
 
 app.listen(3000, () => {
